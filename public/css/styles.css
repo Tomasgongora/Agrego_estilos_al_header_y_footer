@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+    /* VARIABLES DE COLORES */
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a; 
+    /*Fuentes*/
+    --fuente: 'Roboto', sans-serif;
+    /*TAMAÑOS TIPOGRAFICOS*/
+    --parrafos: 12px;
+    --titulos: 24px;
+    --precio: 18px;
+    --descuento: 16px;
+    --descripcion: 16px;
+    
+}
+
+/*GENERALES*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente);
+}
+
+body {
+    background-color: var(--gris-claro);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: var(--parrafos);
+}
+/*HEADER*/
+
+header {
+    background-color: var(--amarillo);
+    padding: 25px 0;
+    
+}
+
+header div.logo {
+    width: 130px;
+    margin-left: 25px;
+}
+
+header div.busqueda{
+    margin-left: 15px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+header nav ul.lista-superior {
+     margin-bottom: 15px;
+     
+}
+
+header nav ul li a {
+    font-size: var(--parrafos);
+}
+ 
+header div.burger-menu {
+    background-color: var(--celeste);
+    border-radius: 10px;
+    color: white;
+    width: 15px;
+    padding: 7px;
+    margin: 25px auto 0;
+}
+
+/*SECCIONES*/
+
+
+/*PRODUCTOS*/
+
+
+/*FOOTER*/
+
+footer{
+    padding: 50px 10px 10px;
+    background-color: white;
+}
+
+footer article {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer article i {
+    font-size: 2em;
+    color: var(--celeste);
+    margin-bottom: 10px;
+}
+footer span {
+    font-size: var(--parrafos);
+}
+ 
