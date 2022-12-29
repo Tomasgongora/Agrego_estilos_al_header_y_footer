@@ -24,11 +24,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: var(--fuente);
 }
 
 body {
     background-color: var(--gris-claro);
+    font-family: var(--fuente);
 }
 
 a {
@@ -40,7 +40,7 @@ li {
     list-style: none;
 }
 
-p {
+div p .compras {
     font-size: var(--parrafos);
 }
 /*HEADER*/
@@ -86,6 +86,21 @@ header div.burger-menu {
 
 /*SECCIONES*/
 
+main section h4 {
+    font-size: var(--titulos);
+}
+
+section article p .precio {
+font-size: var(--precio);
+}
+
+section article p .descuento {
+    font-size: var(--descuento);
+}
+
+section article h5 .descripcion {
+    font-size: var(--descripcion);
+}
 
 /*PRODUCTOS*/
 
@@ -107,7 +122,13 @@ footer article i {
     color: var(--celeste);
     margin-bottom: 10px;
 }
-footer span {
+
+footer article h4 {
+    font-size: var(--titulos);
+}
+
+footer article p {
     font-size: var(--parrafos);
 }
+
  
